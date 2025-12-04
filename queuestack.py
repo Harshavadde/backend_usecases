@@ -1,3 +1,5 @@
+import time
+
 class Queue:
     def __init__(self,a):
         self.que=[0]*a
@@ -31,7 +33,7 @@ class Queue:
     def display(self):
         return self.que
 
-obj = Queue(10)
+obj = Queue(6)
 for i in [10,20,30,40,50]:
     obj.enque(i)
 print(obj.display())
